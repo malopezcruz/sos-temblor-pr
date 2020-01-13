@@ -11,7 +11,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
-    "mobile": "gatsby develop -H 0.0.0.0"
+    "mobile": "gatsby develop -H 0.0.0.0",
+    "lambda-build": "netlify-lambda build functions && node -p 'process.env'"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
