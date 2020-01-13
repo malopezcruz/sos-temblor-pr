@@ -71,7 +71,6 @@ const Card = ({
             href={`https://www.google.com/maps/search/?api=1&query=${lat},${lon}`}
           >
             <FontAwesomeIcon
-              // icon="map-marked-alt"
               icon="link"
               className="mr-2 text-gray-600 text-base"
             />

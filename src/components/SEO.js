@@ -83,10 +83,6 @@ function SEO({ pageTitle, meta, pageDescription, link }) {
       ]}
       link={[
         {
-          // rel: 'dns-prefetch',
-          // href: 'maps.google.com',
-        },
-        {
           rel: 'dns-prefetch',
           href: 'www.google-analytics.com',
         },
@@ -138,7 +134,6 @@ function SEO({ pageTitle, meta, pageDescription, link }) {
 }
 
 SEO.defaultProps = {
-  // lang: `es`,
   link: [],
   meta: [],
   pageDescription: ``,
@@ -146,7 +141,6 @@ SEO.defaultProps = {
 
 SEO.propTypes = {
   pageDescription: PropTypes.string,
-  // lang: PropTypes.string,
   link: PropTypes.arrayOf(PropTypes.object),
   meta: PropTypes.arrayOf(PropTypes.object),
   pageTitle: PropTypes.string.isRequired,

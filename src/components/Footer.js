@@ -23,7 +23,18 @@ const Footer = () => {
           >
             malopez@dcodigo.com
           </a>{' '}
-          para darle acceso a Google Sheet.
+          para darle acceso a Google Sheets. Se utilizó inialmente la base de
+          datos encontrada en repositorio{' '}
+          <a
+            className="underline text-blue-800"
+            href="https://github.com/gcollazo/sos-sur"
+            rel="noopenner nofollow"
+            // eslint-disable-next-line react/jsx-no-target-blank
+            target="_blank"
+          >
+            SOS Sur
+          </a>
+          .
         </p>
         <div className="uppercase text-xs">
           Última actualización: {date.currentBuildDate.currentDate}
