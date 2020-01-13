@@ -1,0 +1,12 @@
+{
+  "socialIcons": [
+    {
+      "name": "Github",
+      "userHandle": "userHandle",
+      "ariaLabel": "Code example in Github",
+      "link": "https://github.com/malopezcruz/sos-temblor-pr",
+      "rel": "noreferrer noopenner",
+      "icon": ["fab", "github"]
+    }
+  ]
+}
