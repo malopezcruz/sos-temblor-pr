@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: '/',
   title: '#SOSTemblorPR',
   titleAlt: 'Lista de recursos',
-  siteUrl: 'https://sostemblorpr.netlify.com/',
+  siteUrl: 'https://sossur.netlify.com',
   lang: 'es',
   locale: 'es',
   description: 'Lista de campamentos y recursos para la ayuda a damnificadxs',
