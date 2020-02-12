@@ -71,3 +71,6 @@ yarn-error.log
 
 # Config
 # website-config.js
+
+# Local Netlify folder
+.netlify
