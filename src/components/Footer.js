@@ -16,38 +16,46 @@ const Footer = () => {
         <p className="text-sm">
           Proyecto para demostrar el uso de{' '}
           <a
-            className="underline text-blue-800"
+            className="border-b-4 border-blue-300 hover:border-blue-400"
             href="https://www.gatsbyjs.org/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             GatsbyJs
           </a>
           ,{' '}
           <a
-            className="underline text-blue-800"
+            className="border-b-4 border-blue-300 hover:border-blue-400 hover:border-blue-400"
             href="https://www.google.com/sheets/about/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Google Spreadsheet
           </a>
           , como base de datos,{' '}
           <a
-            className="underline text-blue-800"
+            className="border-b-4 border-blue-300 hover:border-blue-400"
             href="https://tailwindcss.com/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Tailwindcss y alojado en{' '}
-            <a
-              className="underline text-blue-800"
-              href="https://www.netlify.com/"
-            >
-              Netlify
-            </a>
+            Tailwindcss
+          </a>{' '}
+          y alojado en{' '}
+          <a
+            className="border-b-4 border-blue-300 hover:border-blue-400"
+            href="https://www.netlify.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Netlify
           </a>
           . Los datos fueron tomados del respositorio{' '}
           <a
-            className="underline text-blue-800"
+            className="border-b-4 border-blue-300 hover:border-blue-400"
             href="https://github.com/gcollazo/sos-sur"
-            rel="noopenner nofollow"
-            // eslint-disable-next-line react/jsx-no-target-blank
             target="_blank"
+            rel="noopener noreferrer"
           >
             SOS Sur
           </a>

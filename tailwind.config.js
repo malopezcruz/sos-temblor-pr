@@ -8,6 +8,8 @@ module.exports = {
   variants: {
     margin: ['responsive', 'first'],
     alignContent: ['responsive'],
+    transitionProperty: ['responsive', 'hover'],
+    transitionDuration: ['responsive', 'hover'],
   },
   plugins: [require('@tailwindcss/custom-forms')],
   corePlugins: {

@@ -13,7 +13,7 @@ const Card = ({
 }) => {
   return (
     <li className="mb-4 rounded">
-      <article className="px-6 py-5 bg-gray-200">
+      <article className="px-6 py-5 bg-gray-200 rounded">
         <span
           className={`bg-${(() => {
             switch (serviceType) {
@@ -26,7 +26,7 @@ const Card = ({
               default:
                 return 'gray';
             }
-          })()}-700 text-xs w-auto inline-block text-white py-1 px-2 mr-2`}
+          })()}-700 text-xs w-auto inline-block text-white py-1 px-2 mr-2 rounded-sm`}
         >
           <strong>{serviceType}</strong>
         </span>
@@ -60,7 +60,7 @@ const Card = ({
               default:
                 return 'gray';
             }
-          })()}-700 text-xs w-auto inline-block text-white py-1 px-2`}
+          })()}-700 text-xs w-auto inline-block text-white py-1 px-2 rounded-sm`}
         >
           <strong>{town}</strong>
         </span>
