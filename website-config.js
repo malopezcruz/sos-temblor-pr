@@ -32,8 +32,8 @@ module.exports = {
     youTubeUser: '',
   },
 
-  googleAnalytics: '',
-  googleSiteVerification: '',
+  googleAnalytics: 'UA-158399165-1',
+  googleSiteVerification: 'ITpFaHuoiUmHKz_E5XINv0pAzQ5Wm9TfT8o5LifnWbg',
   msSiteVerification: '',
   //prettier-ignore
 
