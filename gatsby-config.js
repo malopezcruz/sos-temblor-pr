@@ -161,7 +161,7 @@ module.exports = {
       options: {
         // The `spreadsheetId` is required, it is found in the url of your document:
         // https://docs.google.com/spreadsheets/d/<spreadsheetId>/edit#gid=0
-        spreadsheetId: process.env.GOOGLE_SPREADSHEET_ID,
+        spreadsheetId: '1M7XDY6qY8BHuaW4L5pWmr2zYKj_WBPBut3XtxrVqUZo',
 
         // The `spreadsheetName` is recommended, but optional
         // It is used as part of the id's during the node creation, as well as in the generated GraphQL-schema
