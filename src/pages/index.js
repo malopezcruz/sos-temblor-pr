@@ -6,7 +6,7 @@ import List from '../components/List';
 const IndexPage = () => {
   return (
     <Layout>
-      <SEO pageTitle="Home" />
+      <SEO pageTitle="APP" />
       <List />
     </Layout>
   );
