@@ -85,6 +85,32 @@ module.exports = {
     },
     'gatsby-plugin-postcss',
     {
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        printRejected: true, // Print removed selectors and processed file names
+        develop: true, // Enable while using `gatsby develop`
+        tailwind: true, // Enable tailwindcss support
+        whitelist: [
+          'text-gray-900',
+          'antialiased',
+          'text-purple-800',
+          'body',
+          'bg-gray-700',
+          'bg-purple-700',
+          'bg-indigo-700',
+          'bg-teal-700',
+          'bg-green-700',
+          'bg-blue-700',
+          'bg-red-700',
+          'bg-yellow-700',
+          'bg-pink-700',
+          'bg-orange-700',
+        ], // Don't remove this selector
+        ignore: ['fontawesome-svg-core/'], // Ignore files/folders
+        // purgeOnly : ['components/', '/main.css', 'bootstrap/'], // Purge only these files/folders
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: website.googleAnalytics,
@@ -234,6 +260,16 @@ module.exports = {
           utc: false, // boolean, defaults to false - output time as UTC or not, following date-and-time API
         },
         locale: 'es', // string, defaults to null, which date-and-time defaults as "en" - whether to localize the date or not, can use any available date-and-time localization
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-page-progress',
+      options: {
+        includePaths: ['/'],
+        excludePaths: [],
+        height: 4,
+        prependToBody: false,
+        color: `#2b6cb0`,
       },
     },
   ],

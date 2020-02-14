@@ -19,12 +19,12 @@ const Header = () => {
 
   return (
     <header className={`flex py-6 lg:py-8 ${navSelection(navType)}`}>
-      <h1 className="leading-tight w-auto inline-block">
+      <h1 className="leading-tight w-auto inline-block text-blue-700">
         <Link className="text-3xl lg:text-5xl pb-0 font-bold" to="/">
           {title}
         </Link>
       </h1>
-      {tagline && <span className="pt-0 mb-0">{tagline}.</span>}
+      {tagline && <span className="pt-0 mb-0 text-gray-700">{tagline}.</span>}
     </header>
   );
 };

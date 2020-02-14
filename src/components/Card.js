@@ -42,7 +42,7 @@ const Card = ({
               case 'YAUCO':
                 return 'teal';
               case 'COAMO':
-                return 'yellow';
+                return 'gray';
               case 'LARES':
                 return 'orange';
               case 'LAJAS':
@@ -73,6 +73,7 @@ const Card = ({
             <FontAwesomeIcon
               icon="link"
               className="mr-2 text-gray-600 text-base"
+              fixedWidth
             />
             {address}
           </a>

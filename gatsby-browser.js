@@ -6,3 +6,6 @@
 
 // You can delete this file if you're not using it
 // import 'typeface-raleway';
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+config.autoAddCss = false;
